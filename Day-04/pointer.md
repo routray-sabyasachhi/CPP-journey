@@ -8,7 +8,10 @@ Date: 1 March 2026
   3> Application
   4> normal parameter passing v/s pointer in function 
   5> pointer v/s Array
-  6> 
+  6> NULL pointer
+  7> Application of NULL in c++
+  8> pointer arithmetic
+  9>
 
 
 ////////////////////////////////////////////////////////
@@ -66,3 +69,26 @@ Explanation: Arrays are not pointers, they represent a block of memory with a fi
 
 Note :
 Arrays are static in nature i.e. they cannot be resized according to the user requirements. but , Pointers are dynamic in nature i.e. memory allocated can be resized later.
+
+## 6> 
+-> In C++, NULL is a symbolic constant used to represent a null pointer, which means a pointer that does not point to any valid memory address. It is typically defined as 0 and is used to indicate that a pointer is intentionally not associated with any memory location.
+
+-> Assigning NULL to a pointer helps prevent accidental access to invalid memory and improves the safety and reliability of the program.
+
+## Application of NULL in c++
+-> NULL is used to show that a pointer is not pointing to any valid memory address.
+
+-> Functions return NULL to indicate an invalid result or a failure condition.
+
+3> NULL is used in data structures like linked lists and trees to represent an empty node or the end of the structure.
+
+## important points
+-> A null pointer is treated as false in conditional statements, while any non-NULL pointer is treated as true
+
+-> NULL is a generic constant and can be assigned to any type of pointer, such as int*, or char*.
+
+-> Always initialize pointers with NULL when declaring them, especially if they won't immediately point to valid memory.
+
+-> Always heck if a pointer is NULL before dereferencing it to avoid segmentation faults or undefined behaviour.
+
+# pointer arithmetic
