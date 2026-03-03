@@ -11,7 +11,7 @@ Date: 1 March 2026
   6> NULL pointer
   7> Application of NULL in c++
   8> pointer arithmetic
-  9>
+  9> Questions
 
 
 ////////////////////////////////////////////////////////
@@ -75,14 +75,14 @@ Arrays are static in nature i.e. they cannot be resized according to the user re
 
 -> Assigning NULL to a pointer helps prevent accidental access to invalid memory and improves the safety and reliability of the program.
 
-## Application of NULL in c++
+## 7:-> Application of NULL in c++
 -> NULL is used to show that a pointer is not pointing to any valid memory address.
 
 -> Functions return NULL to indicate an invalid result or a failure condition.
 
 3> NULL is used in data structures like linked lists and trees to represent an empty node or the end of the structure.
 
-## important points
+# important points
 -> A null pointer is treated as false in conditional statements, while any non-NULL pointer is treated as true
 
 -> NULL is a generic constant and can be assigned to any type of pointer, such as int*, or char*.
@@ -91,4 +91,17 @@ Arrays are static in nature i.e. they cannot be resized according to the user re
 
 -> Always heck if a pointer is NULL before dereferencing it to avoid segmentation faults or undefined behaviour.
 
-# pointer arithmetic
+## 8 -> pointer arithmetic
+pointer key operations include:
+
+1> Incrementing a pointer (ptr++)
+2> Decrementing a pointer (ptr--)
+3> Adding or subtracting an integer to/from a pointer
+   (ptr + i , ptr - i) // integer or identity
+4> subtracting two pointerrs
+   ( ptr2 - ptr1) 
+   ## Note
+   These operations are not performed in terms of bytes,
+    but, in terms of the size of the data type the pointer is pointing to.
+
+( ptr + 3 ) :=>  Adress(ptr) + 3 * (sizeof integer)
