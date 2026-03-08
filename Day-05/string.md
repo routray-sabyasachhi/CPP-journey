@@ -103,3 +103,4 @@ The C++ string class (std::string) is part of the Standard Template Library (STL
  # cin :
  -> it the simplestway to read a string from the console. But, it stops reading input at the first white space character(i.e. space, newline or tab), which can be a limitation when dealing with multi-word strings.
  
+ 
