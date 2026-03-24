@@ -31,7 +31,23 @@ and in class by default private we can make it public.
 a) Default access specifier # above NOTE
     e.g. declaration.cpp
 b) structs can acts like classes (structs in c++ supports all features of classes )
-    e.g. * Constructors
+    e.g. * Constructors                 ( difference.cpp )
          * Destructors
          * Member fuctions
          * Inheritance
+
+
+# General Guidelines: for use of class and struct
+1) Use of struct :
+-> When you want to bundle multiple related data items together.
+-> When your object does not require complex behavior (e.g., a mathematical point or a student record).
+-> Members are public by default.
+-> Declared using the "struct" keyword.
+-> It is normally used for grouping of data.
+
+2) Use of class :
+-> When you care about data hiding and object-oriented design principles like encapsulation.
+-> When your object requires complex behavior or interaction with other objects.
+-> Members are private by-default.
+-> Declaredusing "class" keyword.
+-> It is normally used for data abstraction and further inheritance.
