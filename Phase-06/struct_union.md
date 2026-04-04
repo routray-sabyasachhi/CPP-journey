@@ -6,6 +6,7 @@
      b) Types of Initialization
           (Designated initialization)
 3> struct v/s class
+4> structure (pointer & Array)
 
 
 
@@ -51,3 +52,5 @@ b) structs can acts like classes (structs in c++ supports all features of classe
 -> Members are private by-default.
 -> Declaredusing "class" keyword.
 -> It is normally used for data abstraction and further inheritance.
+
+# Structure (Pointer & Array)
